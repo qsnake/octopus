@@ -1,0 +1,12 @@
+# -*- coding: utf-8 mode: shell-script -*-
+# $Id: 04-vib_modes.02-vib_modes.inp 6532 2010-04-23 20:30:46Z xavier $
+
+CalculationMode = vib_modes
+fromScratch = yes
+
+dist = 2.77
+
+%Coordinates
+  "Na" | 0 | 0 | -dist
+  "Na" | 0 | 0 |  dist
+%

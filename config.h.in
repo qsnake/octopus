@@ -1,0 +1,405 @@
+/* config.h.in.  Generated from configure.ac by autoheader.  */
+
+/* date when configure was launched */
+#undef BUILD_TIME
+
+/* C compiler */
+#undef CC
+
+/* The C type of a Fortran integer */
+#undef CC_FORTRAN_INT
+
+/* C compiler */
+#undef CFLAGS
+
+/* Define to one of `_getb67', `GETB67', `getb67' for Cray-2 and Cray-YMP
+   systems. This function is required for `alloca.c' support on those systems.
+   */
+#undef CRAY_STACKSEG_END
+
+/* Define to 1 if using `alloca.c'. */
+#undef C_ALLOCA
+
+/* compiler supports c_ptr type of Fortran 2003 */
+#undef F2003_C_PTR
+
+/* compiler supports line-number lines */
+#undef F90_ACCEPTS_LINE_NUMBERS
+
+/* Fortran compiler */
+#undef FC
+
+/* Fortran compiler */
+#undef FCFLAGS
+
+/* compiler supports command line arguments */
+#undef FC_COMMAND_LINE_ARGUMENTS
+
+/* iargc and getarg are implicit, we have to declare them */
+#undef FC_COMMAND_LINE_IMPLICIT
+
+/* iargc and getarg are defined in a include file */
+#undef FC_COMMAND_LINE_INCLUDE
+
+/* iargc and getarg are intrinsic */
+#undef FC_COMMAND_LINE_INTRINSIC
+
+/* iargc and getar are defined in a module */
+#undef FC_COMMAND_LINE_MODULE
+
+/* Define to dummy `main' function (if any) required to link to the Fortran
+   libraries. */
+#undef FC_DUMMY_MAIN
+
+/* Define if F77 and FC dummy `main' functions are identical. */
+#undef FC_DUMMY_MAIN_EQ_F77
+
+/* Define to a macro mangling the given C identifier (in lower and upper
+   case), which must not contain underscores, for linking with Fortran. */
+#undef FC_FUNC
+
+/* As FC_FUNC, but for C identifiers containing underscores. */
+#undef FC_FUNC_
+
+/* The size of a Fortran integer */
+#undef FC_INTEGER_SIZE
+
+/* Define to 1 if you have `alloca', as a function or macro. */
+#undef HAVE_ALLOCA
+
+/* Define to 1 if you have <alloca.h> and it should be used (not on Ultrix).
+   */
+#undef HAVE_ALLOCA_H
+
+/* Define to 1 if you have the `alphasort' function. */
+#undef HAVE_ALPHASORT
+
+/* Defined if you have BLACS library. */
+#undef HAVE_BLACS
+
+/* Define if you have a BLAS library. */
+#undef HAVE_BLAS
+
+/* compiler supports Blue Gene intrinsics */
+#undef HAVE_BLUE_GENE
+
+/* Define if the compiler provides __builtin_prefetch */
+#undef HAVE_BUILTIN_PREFETCH
+
+/* Define to 1 if you have the `closedir' function. */
+#undef HAVE_CLOSEDIR
+
+/* Define to 1 if you have the <dirent.h> header file, and it defines `DIR'.
+   */
+#undef HAVE_DIRENT_H
+
+/* Define to 1 if you have the <errno.h> header file. */
+#undef HAVE_ERRNO_H
+
+/* Defined if you have the ETSF_IO library. */
+#undef HAVE_ETSF_IO
+
+/* Zoltan is a external library */
+#undef HAVE_EXTERNAL_ZOLTAN
+
+/* Fortran compiler supports the sizeof intrinsic */
+#undef HAVE_FC_SIZEOF
+
+/* Define if the flush function can be called from Fortran */
+#undef HAVE_FLUSH
+
+/* Define if the compiler provides the loc instrinsic */
+#undef HAVE_FORTRAN_LOC
+
+/* Define if libgd exists. */
+#undef HAVE_GDLIB
+
+/* Define if libgd uses fontconfig. */
+#undef HAVE_GD_FONTCONFIG
+
+/* Define if libgd uses freetype. */
+#undef HAVE_GD_FREETYPE
+
+/* Define if libgd supports gif. */
+#undef HAVE_GD_GIF
+
+/* Define if libgd supports jpeg. */
+#undef HAVE_GD_JPEG
+
+/* Define if libgd supports png. */
+#undef HAVE_GD_PNG
+
+/* Define if libgd supports xpm. */
+#undef HAVE_GD_XPM
+
+/* Define to 1 if you have the `getopt_long' function. */
+#undef HAVE_GETOPT_LONG
+
+/* Define to 1 if you have the `gettimeofday' function. */
+#undef HAVE_GETTIMEOFDAY
+
+/* Define to 1 if you have the <inttypes.h> header file. */
+#undef HAVE_INTTYPES_H
+
+/* Defined if you have LAPACK library. */
+#undef HAVE_LAPACK
+
+/* Defined if you have LIBFM library. */
+#undef HAVE_LIBFM
+
+/* Defined if you have the LIBXC library. */
+#undef HAVE_LIBXC
+
+/* compiler supports the m128d type */
+#undef HAVE_M128D
+
+/* compiler supports the m256d type */
+#undef HAVE_M256D
+
+/* Define to 1 if you have the <memory.h> header file. */
+#undef HAVE_MEMORY_H
+
+/* This is defined when we should compile with METIS support (default). */
+#undef HAVE_METIS
+
+/* Defined if you have MPI library. */
+#undef HAVE_MPI
+
+/* Defined if you have an MPI 2 implementation */
+#undef HAVE_MPI2
+
+/* Define to 1 if you have the <ndir.h> header file, and it defines `DIR'. */
+#undef HAVE_NDIR_H
+
+/* Defined if you have NETCDF library. */
+#undef HAVE_NETCDF
+
+/* This is defined when the NEWUOA code is to be compiled. */
+#undef HAVE_NEWUOA
+
+/* defined if opencl support is enabled */
+#undef HAVE_OPENCL
+
+/* Define if OpenMP is enabled */
+#undef HAVE_OPENMP
+
+/* PAPI is available */
+#undef HAVE_PAPI
+
+/* Define to 1 if you have the `perror' function. */
+#undef HAVE_PERROR
+
+/* Defined if you have PFFT library. */
+#undef HAVE_PFFT
+
+/* Define to 1 if you have the `readdir' function. */
+#undef HAVE_READDIR
+
+/* Define to 1 if you have the `sbrk' function. */
+#undef HAVE_SBRK
+
+/* Defined if you have SCALAPACK library. */
+#undef HAVE_SCALAPACK
+
+/* Define to 1 if you have the `scandir' function. */
+#undef HAVE_SCANDIR
+
+/* Define to 1 if you have the `sigaction' function. */
+#undef HAVE_SIGACTION
+
+/* Define to 1 if you have the <signal.h> header file. */
+#undef HAVE_SIGNAL_H
+
+/* Defined if you have SPARSKIT library. */
+#undef HAVE_SPARSKIT
+
+/* Define to 1 if `stat' has the bug that it succeeds when given the
+   zero-length file name argument. */
+#undef HAVE_STAT_EMPTY_STRING_BUG
+
+/* Define to 1 if you have the <stdint.h> header file. */
+#undef HAVE_STDINT_H
+
+/* Define to 1 if you have the <stdlib.h> header file. */
+#undef HAVE_STDLIB_H
+
+/* Define to 1 if you have the `strcasestr' function. */
+#undef HAVE_STRCASESTR
+
+/* Define to 1 if you have the `strchr' function. */
+#undef HAVE_STRCHR
+
+/* Define to 1 if you have the <strings.h> header file. */
+#undef HAVE_STRINGS_H
+
+/* Define to 1 if you have the <string.h> header file. */
+#undef HAVE_STRING_H
+
+/* Define to 1 if you have the `strndup' function. */
+#undef HAVE_STRNDUP
+
+/* Define to 1 if you have the `strtod' function. */
+#undef HAVE_STRTOD
+
+/* Define to 1 if you have the <sys/dir.h> header file, and it defines `DIR'.
+   */
+#undef HAVE_SYS_DIR_H
+
+/* Define to 1 if you have the <sys/ndir.h> header file, and it defines `DIR'.
+   */
+#undef HAVE_SYS_NDIR_H
+
+/* Define to 1 if you have the <sys/stat.h> header file. */
+#undef HAVE_SYS_STAT_H
+
+/* Define to 1 if you have the <sys/types.h> header file. */
+#undef HAVE_SYS_TYPES_H
+
+/* Define to 1 if you have the `tcgetpgrp' function. */
+#undef HAVE_TCGETPGRP
+
+/* Define to 1 if the system has the type `uint32_t'. */
+#undef HAVE_UINT32_T
+
+/* Define to 1 if the system has the type `uint64_t'. */
+#undef HAVE_UINT64_T
+
+/* Define to 1 if you have the <unistd.h> header file. */
+#undef HAVE_UNISTD_H
+
+/* Define to 1 if vectorial routines are to be compiled */
+#undef HAVE_VEC
+
+/* Define to 1 if you have the <zoltan.h> header file. */
+#undef HAVE_ZOLTAN_H
+
+/* Define to 1 if you have the `Zoltan_Initialize' function. */
+#undef HAVE_ZOLTAN_INITIALIZE
+
+/* subversion revision number */
+#undef LATEST_SVN
+
+/* compiler supports long lines */
+#undef LONG_LINES
+
+/* Define to 1 if `lstat' dereferences a symlink specified with a trailing
+   slash. */
+#undef LSTAT_FOLLOWS_SLASHED_SYMLINK
+
+/* the maximum dimension of the space */
+#undef MAX_DIM
+
+/* have MPI Fortran header file */
+#undef MPI_H
+
+/* have mpi module */
+#undef MPI_MOD
+
+/* octopus compiled without debug mode */
+#undef NDEBUG
+
+/* The architecture of this system */
+#undef OCT_ARCH
+
+/* This an Alpha system */
+#undef OCT_ARCH_ALPHA
+
+/* This an Itanium system */
+#undef OCT_ARCH_IA64
+
+/* This a MIPS system */
+#undef OCT_ARCH_MIPS
+
+/* This a PowerPC system */
+#undef OCT_ARCH_POWERPC
+
+/* This a Sparc system */
+#undef OCT_ARCH_SPARC
+
+/* This an x86 system */
+#undef OCT_ARCH_X86_64
+
+/* Name of package */
+#undef PACKAGE
+
+/* Define to the address where bug reports for this package should be sent. */
+#undef PACKAGE_BUGREPORT
+
+/* Define to the full name of this package. */
+#undef PACKAGE_NAME
+
+/* Define to the full name and version of this package. */
+#undef PACKAGE_STRING
+
+/* Define to the one symbol short name of this package. */
+#undef PACKAGE_TARNAME
+
+/* Define to the home page for this package. */
+#undef PACKAGE_URL
+
+/* Define to the version of this package. */
+#undef PACKAGE_VERSION
+
+/* octopus compiled in single precision */
+#undef SINGLE_PRECISION
+
+/* The size of `size_t', as computed by sizeof. */
+#undef SIZEOF_SIZE_T
+
+/* The size of `unsigned int', as computed by sizeof. */
+#undef SIZEOF_UNSIGNED_INT
+
+/* The size of `unsigned long', as computed by sizeof. */
+#undef SIZEOF_UNSIGNED_LONG
+
+/* The size of `unsigned long long', as computed by sizeof. */
+#undef SIZEOF_UNSIGNED_LONG_LONG
+
+/* The size of `void*', as computed by sizeof. */
+#undef SIZEOF_VOIDP
+
+/* If using the C implementation of alloca, define if you know the
+   direction of stack growth for your system; otherwise it will be
+   automatically deduced at runtime.
+	STACK_DIRECTION > 0 => grows toward higher addresses
+	STACK_DIRECTION < 0 => grows toward lower addresses
+	STACK_DIRECTION = 0 => direction of growth unknown */
+#undef STACK_DIRECTION
+
+/* Define to 1 if you have the ANSI C header files. */
+#undef STDC_HEADERS
+
+/* Define to 1 if you can safely include both <sys/time.h> and <time.h>. */
+#undef TIME_WITH_SYS_TIME
+
+/* Version number of package */
+#undef VERSION
+
+/* Define to empty if `const' does not conform to ANSI C. */
+#undef const
+
+/* Define to `__inline__' or `__inline' if that's what the C compiler
+   calls it, or to nothing if 'inline' is not supported under any name.  */
+#ifndef __cplusplus
+#undef inline
+#endif
+
+/* Define to `int' if <sys/types.h> does not define. */
+#undef pid_t
+
+/* Define to the equivalent of the C99 'restrict' keyword, or to
+   nothing if this is not supported.  Do not define if restrict is
+   supported directly.  */
+#undef restrict
+/* Work around a bug in Sun C++: it does not support _Restrict or
+   __restrict__, even though the corresponding Sun C compiler ends up with
+   "#define restrict _Restrict" or "#define restrict __restrict__" in the
+   previous line.  Perhaps some future version of Sun C++ will work with
+   restrict; if so, hopefully it defines __RESTRICT like Sun C does.  */
+#if defined __SUNPRO_CC && !defined __RESTRICT
+# define _Restrict
+# define __restrict__
+#endif
+
+/* Define to `unsigned int' if <sys/types.h> does not define. */
+#undef size_t

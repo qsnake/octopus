@@ -1,0 +1,39 @@
+# -*- coding: utf-8 mode: shell-script -*-
+# $Id: 04-oep.02-jellium-exx_kli.inp 7850 2011-05-10 22:43:21Z xavier $
+
+# Now, EXX/KLI for Li, 8 electrons (restarting from the previous run)
+
+CalculationMode = gs
+
+r_s = 3.28
+N_electrons = 8
+jellium_radius = r_s * (N_electrons)^(1.0/3.0)
+
+%Species
+"jellium" | 1.0 | spec_jelli | N_electrons | jellium_radius
+%
+
+%Coordinates
+"jellium" | 0 | 0 | 0
+%
+
+BoxShape = sphere
+Radius  = 13.0
+Spacing = 0.35
+
+XCFunctional = oep_x
+OEPLevel = oep_kli
+
+
+ConvRelDens = 8e-6
+
+LCAOStart = lcao_none
+
+EigenSolver = cg
+EigenSolverInitTolerance = 1e-2
+EigenSolverFinalTolerance = 1e-5
+EigenSolverFinalToleranceIteration = 6
+EigenSolverMaxIter = 25
+Preconditioner = no
+
+ParallelizationStrategy=par_domains

@@ -1,0 +1,31 @@
+# -*- coding: utf-8 mode: shell-script -*-
+# $Id: 12-forces.01-N2_gs.inp 7532 2011-03-03 06:42:10Z dstrubbe $
+
+CalculationMode = gs
+FromScratch = yes
+
+bond_length = 2.7
+%Coordinates
+"N" |  -bond_length/2 |  0.0 |  0.0 
+"N" |   bond_length/2 |  0.0 |  0.0 
+%
+
+BoxShape = sphere
+
+radius = 10.5
+spacing = 0.40
+
+
+ConvRelDens = 1e-7
+
+EigenSolver = cg_new
+EigenSolverInitTolerance = 1e-2
+EigenSolverFinalTolerance = 1e-4
+EigenSolverFinalToleranceIteration = 6
+EigenSolverMaxIter = 20
+
+PoissonSolver = fft_corrected
+
+ParallelizationStrategy=par_domains
+
+FilterPotentials=filter_TS

@@ -1,0 +1,24 @@
+# -*- coding: utf-8 mode: shell-script -*-
+# $Id: 02-neon_mpi.01-ground_state-IP_par_domains.inp 6937 2010-08-17 06:27:58Z dstrubbe $
+#
+
+FromScratch = yes
+
+CalculationMode = gs
+
+ParallelizationStrategy = par_domains
+
+Dimensions = 1
+Spacing = 0.2
+Radius = 50.0
+ExtraStates = 1
+
+TheoryLevel = independent_particles
+
+%Species
+  "Neon1D" | 1 | spec_user_defined | 10 | "-10/sqrt(0.25 + x^2)"
+%
+
+%Coordinates
+  "Neon1D" | 0
+%

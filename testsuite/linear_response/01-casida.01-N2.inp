@@ -1,0 +1,48 @@
+# -*- coding: utf-8 mode: shell-script -*-
+# $Id: 01-casida.01-N2.inp 7541 2011-03-06 22:00:28Z dstrubbe $
+
+%CalculationMode
+ gs              | unocc            | casida
+ "ground_state_" |  "unocc_states_" | "lrtddft_"
+ 1               | 2                | 3
+%
+
+unocc_states_RestartDir = "ground_state_restart"
+lrtddft_RestartDir = "unocc_states_restart"
+
+FromScratch = yes
+
+bond_length = 2.0744
+
+%Coordinates
+"N" |  -bond_length/2 |  0.0 |  0.0 
+"N" |   bond_length/2 |  0.0 |  0.0 
+%
+
+%Species
+"N" | 14.0067000 | spec_ps_psf | 7 | 2 | 0 
+%
+
+BoxShape = sphere
+
+Radius = 12.0
+Spacing = 0.36
+
+SpinComponents = unpolarized
+
+XCFunctional = lda_x + lda_c_vwn
+
+ConvRelDens = 1e-9
+
+LCAODimension = 18
+
+EigenSolver = cg_new
+EigenSolverInitTolerance = 1e-2
+EigenSolverFinalTolerance = 1e-5
+EigenSolverFinalToleranceIteration = 6
+
+EigenSolverMaxIter = 20
+
+NumberUnoccStates = 9
+
+PoissonSolver = fft_corrected

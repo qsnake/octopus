@@ -1,0 +1,18 @@
+# -*- coding: utf-8 mode: shell-script -*-
+# $Id: 04-vib_modes.test 7930 2011-05-25 19:24:20Z dstrubbe $
+
+Test       : Sodium vibrational frequency
+Programs   : octopus; octopus_mpi
+TestGroups : long-run
+Enabled    : Yes
+
+
+Input: 04-vib_modes.01-ground_state.inp
+match ; Total energy   ; GREP(static/info, 'Total       =', 20) ; -0.41787721
+match ; Eigenvalues    ; GREP(static/info, '1   --', 12) ;  -0.119004
+
+Precision : 0.002
+
+Input: 04-vib_modes.02-vib_modes.inp
+match ; Vibrational Frequency   ; LINE(vib_modes/normal_frequencies_lr, 1, 7) ; 167.32279
+match ; Infrared Intensity      ; LINE(vib_modes/infrared, 2, 60)             ; 0.0
